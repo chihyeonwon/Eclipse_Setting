@@ -22,3 +22,16 @@ Auto activation delay는 0으로 하고
 Auto activation triggers for java 입력란 에는 아래 문자열 코드를 전체 복사해서 붙여놓으면 된다.    
      
 <=$:{.@qwertyuioplkjhgfdsazxcvbnm_QWERTYUIOPLKJHGFDSAZXCVBNM
+
+## The Eclipse executable launcher was unable to locate its companion shared library.
+![image](https://github.com/chihyeonwon/Eclipse_Setting/assets/58906858/1285be52-1701-4369-8df4-9f90d8cf707a)
+```
+이 오류는 eclipse.ini 파일의 --launcher.library에 org.eclipse.equinox.launcher 파일의 경로가 제대로 되어있지 않아 발생하는 오류이다.
+```
+![image](https://github.com/chihyeonwon/Eclipse_Setting/assets/58906858/5b9adc1e-4445-475b-b8a8-7f2c1a102a21)
+
+## java was started but returned exit code=1, 13
+![image](https://github.com/chihyeonwon/Eclipse_Setting/assets/58906858/8c526873-19f3-48a2-939e-6ad01bdeeb5e)
+```
+-vmargs보다는 위에 -vm 바로 밑에 jdk version에 맞는 javaw.exe나 /server/jvm.dll 파일의 경로를 넣어준다.
+```
