@@ -28,7 +28,11 @@ Auto activation triggers for java 입력란 에는 아래 문자열 코드를 �
 ```
 이 오류는 eclipse.ini 파일의 --launcher.library에 org.eclipse.equinox.launcher 파일의 경로가 제대로 되어있지 않아 발생하는 오류이다.
 ```
+![image](https://github.com/chihyeonwon/Eclipse_Setting/assets/58906858/c0015a64-8dc0-4664-8552-9d1e29d5512e)
 ![image](https://github.com/chihyeonwon/Eclipse_Setting/assets/58906858/5b9adc1e-4445-475b-b8a8-7f2c1a102a21)
+```
+plugins 폴더에 있는 launcher를 넣어준다.
+```
 
 ## java was started but returned exit code=1, 13
 ![image](https://github.com/chihyeonwon/Eclipse_Setting/assets/58906858/8c526873-19f3-48a2-939e-6ad01bdeeb5e)
